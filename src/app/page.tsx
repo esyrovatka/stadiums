@@ -1,24 +1,24 @@
-"use client";
+"use client"
 
-import { useRouter } from "next/navigation";
-import { FC, useEffect, useState } from "react";
+import { useRouter } from "next/navigation"
+import { FC, useEffect, useState } from "react"
 
 const Home: FC = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   // TODO: add state manager for user auth
-  const isUserInit = false;
-  const [isUserLoad, setIsUserLoad] = useState<boolean>(true);
+  const isUserInit = false
+  const [isUserLoad, setIsUserLoad] = useState<boolean>(true)
 
   useEffect(() => {
-    setIsUserLoad(false);
-  }, []);
+    setIsUserLoad(false)
+  }, [])
 
-  if (isUserLoad) return <div>Loading...</div>;
+  if (isUserLoad) return <div>Loading...</div>
 
-  if (!isUserInit) router.push("/auth/signup");
+  if (!isUserInit) router.push("/auth/signup")
 
-  return <main>Stadiums</main>;
-};
+  return <main>Stadiums</main>
+}
 
-export default Home;
+export default Home

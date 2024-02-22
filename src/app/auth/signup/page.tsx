@@ -1,5 +1,12 @@
-const SignUp = () => {
-  return <div>SignUp</div>;
-};
+import { FC } from "react"
+import styles from "./page.module.scss"
 
-export default SignUp;
+const SignUp: FC = () => {
+  return (
+    <div className={styles.wrapper}>
+      <h1>Sign Up</h1>
+    </div>
+  )
+}
+
+export default SignUp
