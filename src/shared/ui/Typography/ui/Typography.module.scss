@@ -1,0 +1,41 @@
+.text {
+  &.primary {
+    color: $color-primary-original;
+  }
+
+  &.secondary {
+    color: $color-neutral-light70;
+  }
+
+  &.white {
+    color: $color-white;
+  }
+
+  &.black {
+    color: $color-neutral-dark70;
+  }
+
+  &.dark {
+    color: $color-neutral-dark40;
+  }
+
+  &.four {
+    font-weight: $fw-400;
+  }
+
+  &.five {
+    font-weight: $fw-500;
+  }
+
+  &.six {
+    font-weight: $fw-600;
+  }
+
+  &.seven {
+    font-weight: $fw-700;
+  }
+
+  &.eight {
+    font-weight: $fw-700;
+  }
+}
