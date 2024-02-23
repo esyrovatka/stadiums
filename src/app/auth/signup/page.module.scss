@@ -1,3 +1,55 @@
 .wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100dvh;
+  padding: 0 24px;
+  position: relative;
+  z-index: 2;
+
+  &__image-top {
+    position: absolute;
+    z-index: 1;
+    width: 110px;
+    height: 195px;
+    right: 0;
+    top: 0;
+  }
+
+  &__image-bottom {
+    position: absolute;
+    z-index: 1;
+    width: 103px;
+    height: 171px;
+    left: 0;
+    bottom: 0;
+  }
+
+  &__form {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 4px 12px 0px rgba(#000, 0.7);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    height: 293px;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: $fs-20;
+    line-height: $lh-22;
+  }
+
+  &__remember {
+    display: flex;
+  }
 }
