@@ -1,1 +1,1 @@
-export { Typography } from "./ui"
+export { Typography, Input } from "./ui"
