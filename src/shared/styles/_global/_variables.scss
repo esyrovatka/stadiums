@@ -1,0 +1,52 @@
+@import "breakpoints";
+
+$color-primary-dark70: #46404c;
+$color-primary-dark40: #8c8099;
+$color-primary-original: #e9d5ff;
+$color-primary-light40: #f2e6ff;
+$color-primary-light70: #f8f2ff;
+
+$color-secondary-dark70: #29092a;
+$color-secondary-dark40: #531255;
+$color-secondary-original: #8a1e8d;
+$color-secondary-light20: #a447a6;
+$color-secondary-light40: #b978bb;
+$color-secondary-light70: #cdd6f6;
+
+$color-neutral-dark70: #343d46;
+$color-neutral-dark40: #485059;
+$color-neutral-original: #9a9ea3;
+$color-neutral-light40: #b6b6b6;
+$color-neutral-light70: #d6d8da;
+$color-neutral-light90: #ebeced;
+
+$color-error: #ff3b30;
+$color-warning: #ffcc00;
+$color-success: #34c759;
+$color-black: #000;
+$color-white: #fff;
+$color-background: linear-gradient(180deg, #ffebff, rgba($color-white, 0.08));
+
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+
+$fs-16: 16px;
+$fs-20: 20px;
+$fs-24: 24px;
+$fs-26: 26px;
+$fs-28: 28px;
+$fs-32: 32px;
+$fs-34: 34px;
+$fs-40: 40px;
+
+$lh-20: 20px;
+$lh-22: 22px;
+$lh-24: 24px;
+$lh-30: 30px;
+$lh-32: 32px;
+$lh-36: 36px;
+$lh-42: 42px;
+$lh-50: 50px;
